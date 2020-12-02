@@ -1,6 +1,6 @@
 
-def hello(name):
-    print(" My name is %s " % name)
+def speak(name):
+    return " My name is %s " % name
 
-hello('james')    
+print(speak('james'))
     
